@@ -28,6 +28,6 @@ app.use('/api/auth', require('./routes/auth'));
 app.get('/api/test', (req, res) => res.json({ message: 'API is working' }));
 app.get('/api/auth/test', (req, res) => res.json({ message: 'Auth routes are working' }));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT ;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
