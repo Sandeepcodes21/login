@@ -14,7 +14,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://meek-liger-b5a04c.netlify.app',
     credentials: true
 }));
 
